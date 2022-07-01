@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px) {
+  .hiring-section {
+    flex-direction: column;
+  }
+  .training-section {
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  .training-section > div {
+    display: flex;
+    width: 100% !important;
+    max-width: unset !important;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .training-section > div > div {
+    top: unset !important;
+    left: unset !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .reqirement-section {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .content-container {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .content-container {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+  .send-mail-bg {
+      display: none !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+    .about-us-section {
+      background: unset !important;
+    }
+  }
+

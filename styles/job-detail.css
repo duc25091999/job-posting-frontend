@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1000px) {
+  .job-detail-container {
+    flex-direction: column;
+  }
+  .job-detail-container-image {
+    display: flex;
+    justify-content: space-between;
+  }
+  .job-detail-container-image img {
+      max-width: unset !important; 
+      width: 100%;
+  }
+  .job-detail-container-image>div{
+      width: 30%;
+  }
+}

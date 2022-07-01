@@ -1,0 +1,47 @@
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before {
+  border: none !important;
+}
+.underline-title-center {
+  position: relative;
+  margin-bottom: 48px;
+}
+.underline-title-center::before {
+  position: absolute;
+  content: "";
+  background: #000000;
+  border-radius: 5px;
+  width: 60px;
+  height: 2.5px;
+  bottom: -24px;
+}
+.underline-title-left {
+  position: relative;
+  margin-bottom: 48px;
+}
+.underline-title-left::before {
+  position: absolute;
+  content: "";
+  background: #000000;
+  border-radius: 5px;
+  width: 60px;
+  height: 2.5px;
+  bottom: -24px;
+}
