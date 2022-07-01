@@ -111,7 +111,7 @@ export default function Home() {
               marginBottom: 48,
             }}
           >
-            Don't miss the opportunity to become a member of the great family of
+            Dont miss the opportunity to become a member of the great family of
             MP Telecom with wide future career development opportunities and
             income levels interesting.
           </div>
@@ -391,7 +391,7 @@ export default function Home() {
               </p>
               <p>
                 <span style={{ fontSize: "1.25rem" }}>&#10003;</span>
-                MP Telecom recognizes all employees' efforts to bring about the
+                MP Telecom recognizes all employees efforts to bring about the
                 fairest and most transparent results, promote new positions and
                 have a clear promotion path...
               </p>
